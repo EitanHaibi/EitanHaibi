@@ -13,13 +13,15 @@ from pybricks.media.ev3dev import SoundFile, ImageFile
 
 
 #objects 
- from objects import *
+from objects import *
 
 #number
+from numbers import *
 
 ev3.speaker.beep(100, 3000)
 drive.straight(5)
 dirve.turn(60)
 
 #angle
+from angle import *
  angle() 
