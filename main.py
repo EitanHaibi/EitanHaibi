@@ -22,4 +22,4 @@ drive.straight(5)
 dirve.turn(60)
 
 #angle
-from angle import *
+ angle() 

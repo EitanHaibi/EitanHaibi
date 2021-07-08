@@ -1,0 +1,5 @@
+ev3 = EV3Brick()
+left_motor = left_motor(Port.C)
+right_motor = right_motor(Port.B)
+drive = DriveBase(left_motor, right_motor, 56, 110)
+gryo = GyroSensor(Port.S1)
